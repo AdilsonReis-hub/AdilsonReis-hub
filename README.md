@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Olá, eu sou o Adilson
+# 👋 Olá, eu sou o Adilson Reis
 
 ### 💻 Desenvolvedor em formação • 🎓 Estudante de Engenharia de Software
 
@@ -19,7 +19,8 @@ Sou estudante de **Engenharia de Software** e gosto de aprender tecnologia coloc
 - 🛠️ Criando projetos para praticar e construir meu portfólio
 - 🚀 Sempre buscando aprender algo novo
 
-## 🛠️ Tecnologias
+## ⚫ Atualmente estudando
+##  Tecnologias
 
 <div align="center">
 
@@ -27,11 +28,11 @@ Sou estudante de **Engenharia de Software** e gosto de aprender tecnologia coloc
 
 </div>
 
-## 📚 Atualmente estudando
+## ⚫ Atualmente estudando
 
 `HTML` • `CSS` • `JavaScript` • `Java` • `C++` • `Git & GitHub`
 
-## 🚀 Projetos
+## ⚫ Projetos
 
 Estou organizando meu GitHub e preparando meus primeiros projetos públicos. Em breve esta área terá projetos de desenvolvimento web, estudos e experimentos que mostram minha evolução como desenvolvedor.
 
