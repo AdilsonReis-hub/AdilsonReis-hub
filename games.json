@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Darkwood",
+    "description": "Jogo de terror e sobrevivência. Resgate por 15.000 pontos do canal da Twitch. Entrega manual da chave após validação do resgate; quantidade limitada.",
+    "category": "Terror",
+    "icon": "🌲",
+    "status": "available",
+    "points": 15000,
+    "retail_price_brl": 39.99
+  }
+]

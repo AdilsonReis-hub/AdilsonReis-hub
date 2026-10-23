@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#08050f" />
   <meta name="description" content="Jiji Rencarnado — central oficial do jijiRencarnado." />
-  <title>Jiji Rencarnad | jijirencarnado</title>
+  <title>Jiji Hub | jijirencarnado</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700;800&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
     <a class="brand" href="#inicio" aria-label="Jiji Rencarnado"><span class="brand-mark">JIJI</span><span>RENCARNADO</span></a>
     <button class="menu" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav>
-      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#links">Links</a><a href="#agenda">Agenda</a><a href="#setup">Setup</a><a href="#apoio">Apoie</a>
+      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#links">Links</a><a href="#loja">Loja</a><a href="#agenda">Agenda</a><a href="#setup">Setup</a><a href="#apoio">Apoie</a>
     </nav>
   </header>
 
@@ -50,6 +50,32 @@
         <a class="card" href="https://www.tiktok.com/@jijiirencarnado?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener"><b>TikTok</b><span>Clipes e Diversos</span><i>↗</i></a>
         <a class="card" href="https://www.youtube.com/@JIJIRENCARNADO" target="_blank" rel="noopener"><b>YouTube</b><span>Clipes e vídeos</span><i>↗</i></a>
       </div>
+    </section>
+
+    <section id="loja" class="section wrap store-section">
+      <div class="store-heading">
+        <div><p class="eyebrow">RECOMPENSAS DA COMUNIDADE</p><h2>Loja dos <span>Reencarnados</span></h2></div>
+        <div class="store-stamp" aria-hidden="true">JIJI<br><b>STORE</b></div>
+      </div>
+      <p class="store-intro">Uma vitrine de jogos que podem ser resgatados com pontos do canal na Twitch. Sem pagamentos: cada recompensa seguirá as regras publicadas no canal e será validada manualmente.</p>
+      <div class="store-notice"><span class="notice-icon">✦</span><div><strong>Resgates por pontos do canal</strong><p>Darkwood é a primeira recompensa da loja! O resgate custa 15.000 pontos do canal e a entrega da chave é manual, após a validação na Twitch.</p></div></div>
+      <div class="store-tools">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="game-search" type="search" placeholder="Buscar um jogo..." aria-label="Buscar um jogo" /></label>
+        <label class="filter-box"><span class="sr-only">Filtrar categoria</span><select id="game-category" aria-label="Filtrar por categoria"><option value="all">Todas as categorias</option></select></label>
+      </div>
+      <div id="game-catalog" class="game-catalog" aria-live="polite">
+        <div class="catalog-loading">Carregando a vitrine...</div>
+      </div>
+      <div class="store-steps">
+        <h3>Como vai funcionar?</h3>
+        <div class="steps-grid">
+          <article><span>01</span><b>Escolha</b><p>Confira os jogos e as regras de cada recompensa.</p></article>
+          <article><span>02</span><b>Resgate na Twitch</b><p>Use os pontos do canal para resgatar a recompensa correspondente na Twitch, quando estiver ativa.</p></article>
+          <article><span>03</span><b>Validação manual</b><p>O Jiji confere manualmente o resgate no painel da Twitch e registra o status.</p></article>
+          <article><span>04</span><b>Entrega privada</b><p>Se o resgate for válido e houver estoque, a chave é enviada em particular. Chaves nunca ficam expostas no site.</p></article>
+        </div>
+      </div>
+      <p class="store-footnote">A disponibilidade depende do estoque confirmado e das regras de cada recompensa. Nunca envie senhas ou dados de acesso à sua conta.</p>
     </section>
 
     <section id="agenda" class="section wrap">
