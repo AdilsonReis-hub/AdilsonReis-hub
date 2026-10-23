@@ -78,7 +78,7 @@ function renderGames() {
     const description = escapeHTML(game.description || 'Detalhes em breve.');
     const gameCategory = escapeHTML(game.category || 'Outros');
     const action = available
-      ? `<a class="game-action active" href="https://www.twitch.tv/jijirencarnado" target="_blank" rel="noopener">\${points} <span aria-hidden="true">↗</span></a>`
+      ? `<a class="game-action active" href="https://www.twitch.tv/jijirencarnado" target="_blank" rel="noopener">${points} <span aria-hidden="true">↗</span></a>`
       : '<span class="game-action" aria-disabled="true">Resgates ainda não disponíveis</span>';
     return `<article class="game-card">
       <div class="game-art">${coverUrl ? `<img src="${coverUrl}" alt="Capa de ${title}" loading="lazy">` : icon}</div>
