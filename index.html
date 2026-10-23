@@ -17,7 +17,7 @@
     <a class="brand" href="#inicio" aria-label="Jiji Hub"><span class="brand-mark">JIJI</span><span>HUB</span></a>
     <button class="menu" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav>
-      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#links">Links</a><a href="#agenda">Agenda</a><a href="#setup">Setup</a><a href="#apoio">Apoie</a>
+      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#links">Links</a><a href="#loja">Loja</a><a href="#agenda">Agenda</a><a href="#setup">Setup</a><a href="#apoio">Apoie</a>
     </nav>
   </header>
 
@@ -27,7 +27,7 @@
         <p class="eyebrow">BEM-VINDO AO MEU CANTO DA INTERNET</p>
         <h1>JIJI <span>HUB</span></h1>
         <p class="lead">Lives, jogos, caos e boas histórias. Tudo do <strong>jijirencarnado</strong> em um só lugar.</p>
-        <div class="actions"><a class="btn primary" href="https://www.twitch.tv/jijirencarnado" target="_blank" rel="noopener">▶ Assistir na Twitch</a><a class="btn ghost" href="#links">Explorar o Hub</a></div>
+        <div class="actions"><a class="btn primary" href="https://www.twitch.tv/jijirencarnado" target="_blank" rel="noopener">▶ Assistir na Twitch</a><a class="btn ghost" href="#loja">🎮 Conhecer a loja</a></div>
         <div class="live-pill"><span></span> Twitch · jijirencarnado</div>
       </div>
       <div class="hero-art" aria-hidden="true"><div class="orb"></div><div class="cat">JIJI</div></div>
@@ -48,6 +48,32 @@
       </div>
     </section>
 
+    <section id="loja" class="section wrap store-section">
+      <div class="store-heading">
+        <div><p class="eyebrow">RECOMPENSAS DA COMUNIDADE</p><h2>Loja dos <span>Reencarnados</span></h2></div>
+        <div class="store-stamp" aria-hidden="true">JIJI<br><b>STORE</b></div>
+      </div>
+      <p class="store-intro">Uma vitrine de jogos para a comunidade. Quando houver jogos confirmados, eles aparecerão aqui — os resgates serão conferidos manualmente para garantir que tudo chegue certinho ao ganhador.</p>
+      <div class="store-notice"><span class="notice-icon">✦</span><div><strong>A loja está sendo preparada.</strong><p>Estamos organizando os primeiros jogos e recompensas. Nenhuma chave está disponível para resgate neste momento.</p></div></div>
+      <div class="store-tools">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="game-search" type="search" placeholder="Buscar um jogo..." aria-label="Buscar um jogo" /></label>
+        <label class="filter-box"><span class="sr-only">Filtrar categoria</span><select id="game-category" aria-label="Filtrar por categoria"><option value="all">Todas as categorias</option></select></label>
+      </div>
+      <div id="game-catalog" class="game-catalog" aria-live="polite">
+        <div class="catalog-loading">Carregando a vitrine...</div>
+      </div>
+      <div class="store-steps">
+        <h3>Como vai funcionar?</h3>
+        <div class="steps-grid">
+          <article><span>01</span><b>Escolha</b><p>Confira os jogos e as regras de cada recompensa.</p></article>
+          <article><span>02</span><b>Resgate na Twitch</b><p>Quando uma recompensa estiver ativa, solicite-a pelo canal conforme as regras anunciadas.</p></article>
+          <article><span>03</span><b>Validação manual</b><p>O Jiji confere o resgate e registra o status do pedido.</p></article>
+          <article><span>04</span><b>Entrega privada</b><p>Se aprovado e disponível, o jogo é entregue por mensagem privada. Chaves nunca ficam expostas no site.</p></article>
+        </div>
+      </div>
+      <p class="store-footnote">A disponibilidade depende do estoque confirmado e das regras de cada recompensa. Nunca envie senhas ou dados de acesso à sua conta.</p>
+    </section>
+
     <section id="agenda" class="section wrap">
       <p class="eyebrow">QUANDO TEM LIVE?</p><h2>Agenda</h2>
       <div class="schedule"><div><b>SEG</b><span>Live / conteúdo</span></div><div><b>QUA</b><span>Live / conteúdo</span></div><div><b>SÁB</b><span>Live / conteúdo</span></div></div>
@@ -60,7 +86,7 @@
     </section>
 
     <section id="apoio" class="section wrap support">
-      <div><p class="eyebrow">FORTALEÇA O CANAL</p><h2>Apoie o Jiji</h2><p>Se curte as lives e quiser fortalecer o projeto, aqui ficará o acesso ao LivePix.</p><a class="btn primary disabled" href="#">LivePix · link a confirmar</a></div>
+      <div><p class="eyebrow">FORTALEÇA O CANAL</p><h2>Apoie o Jiji</h2><p>Se curte as lives e quiser fortalecer o projeto, aqui ficará o acesso ao LivePix.</p><a class="btn primary disabled" href="#" aria-disabled="true">LivePix · link a confirmar</a></div>
       <div class="qr"><span>QR CODE</span><small>Vamos inserir manualmente pelo VS Code</small></div>
     </section>
   </main>
