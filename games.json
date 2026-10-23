@@ -1,9 +1,11 @@
 [
   {
     "title": "Darkwood",
-    "description": "Jogo de terror e sobrevivência. Recompensa da Loja dos Reencarnados; custo em pontos e regras de resgate serão anunciados antes de liberar.",
+    "description": "Terror e sobrevivência. Recompensa especial da comunidade por 15.000 pontos do canal da Twitch. Resgate manual; disponibilidade sujeita à validação.",
     "category": "Terror",
     "icon": "🌲",
-    "status": "coming_soon"
+    "status": "coming_soon",
+    "points": 15000,
+    "retail_price_brl": 39.99
   }
 ]
