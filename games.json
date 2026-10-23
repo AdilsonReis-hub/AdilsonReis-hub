@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "title": "Darkwood",
+    "description": "Jogo de terror e sobrevivência. Recompensa da Loja dos Reencarnados; custo em pontos e regras de resgate serão anunciados antes de liberar.",
+    "category": "Terror",
+    "icon": "🌲",
+    "status": "coming_soon"
+  }
+]
