@@ -72,14 +72,16 @@ function renderGames() {
     const available = game.status === 'available';
     const status = available ? 'Disponível' : 'Em breve';
     const icon = escapeHTML(game.icon || '🎮');
+    const coverUrl = escapeHTML(game.cover_url || '');
+    const points = Number(game.points) > 0 ? Number(game.points).toLocaleString('pt-BR') + ' pontos' : 'Ver na Twitch';
     const title = escapeHTML(game.title || 'Jogo');
     const description = escapeHTML(game.description || 'Detalhes em breve.');
     const gameCategory = escapeHTML(game.category || 'Outros');
     const action = available
-      ? '<a class="game-action active" href="https://www.twitch.tv/jijirencarnado" target="_blank" rel="noopener">Ver regras na Twitch ↗</a>'
+      ? `<a class="game-action active" href="https://www.twitch.tv/jijirencarnado" target="_blank" rel="noopener">\${points} <span aria-hidden="true">↗</span></a>`
       : '<span class="game-action" aria-disabled="true">Resgates ainda não disponíveis</span>';
     return `<article class="game-card">
-      <div class="game-art" aria-hidden="true">${icon}</div>
+      <div class="game-art">${coverUrl ? `<img src="${coverUrl}" alt="Capa de ${title}" loading="lazy">` : icon}</div>
       <div class="game-info"><span class="game-category">${gameCategory}</span><h3>${title}</h3>
       <p>${description}</p><span class="game-status ${available ? 'available' : ''}">${status}</span>${action}</div>
     </article>`;
