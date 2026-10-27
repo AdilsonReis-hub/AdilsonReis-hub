@@ -7,7 +7,7 @@
     "status": "available",
     "points": 15000,
     "retail_price_brl": 39.99,
-    "cover_url": "darkwood.jpg"
+    "cover_url": "assets/capas/darkwood.jpg"
   },
   {
     "title": "Pongo",
@@ -16,7 +16,7 @@
     "icon": "🕹️",
     "status": "available",
     "points": 5500,
-    "cover_url": "Pongo.jpg"
+    "cover_url": "assets/capas/Pongo.jpg"
   },
   {
     "title": "Polygoneer",
@@ -25,7 +25,7 @@
     "icon": "🔷",
     "status": "available",
     "points": 1000,
-    "cover_url": "Polygoneer.jpg"
+    "cover_url": "assets/capas/Polygoneer.jpg"
   },
   {
     "title": "Road Scars: Origins - Deluxe Edition",
@@ -34,7 +34,7 @@
     "icon": "🏍️",
     "status": "available",
     "points": 2000,
-    "cover_url": "Road Scars.jpg"
+    "cover_url": "assets/capas/Road Scars.jpg"
   },
   {
     "title": "Cyberhunt - Deluxe Edition",
@@ -43,7 +43,7 @@
     "icon": "🤖",
     "status": "available",
     "points": 2000,
-    "cover_url": "Cyberhunt.jpg"
+    "cover_url": "assets/capas/Cyberhunt.jpg"
   },
   {
     "title": "CrossCode",
@@ -52,7 +52,7 @@
     "icon": "⚔️",
     "status": "available",
     "points": 3000,
-    "cover_url": "CrossCode.jpg"
+    "cover_url": "assets/capas/CrossCode.jpg"
   },
   {
     "title": "Dungeon Defenders II",
@@ -61,7 +61,7 @@
     "icon": "🛡️",
     "status": "available",
     "points": 1500,
-    "cover_url": "Dungeon Defenders.jpg"
+    "cover_url": "assets/capas/Dungeon Defenders.jpg"
   },
   {
     "title": "Destroy All Humans! - Clone Carnage",
@@ -70,7 +70,7 @@
     "icon": "👽",
     "status": "available",
     "points": 2500,
-    "cover_url": "Destroy All Humans.jpg"
+    "cover_url": "assets/capas/Destroy All Humans.jpg"
   },
   {
     "title": "eFootball™ 2024",
@@ -79,6 +79,6 @@
     "icon": "⚽",
     "status": "available",
     "points": 3000,
-    "cover_url": "eFootball™ 2024.jpg"
+    "cover_url": "assets/capas/eFootball™ 2024.jpg"
   }
 ]
