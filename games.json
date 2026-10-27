@@ -8,5 +8,69 @@
     "points": 15000,
     "retail_price_brl": 39.99,
     "cover_url": "darkwood.jpg"
+  },
+  {
+    "title": "Pongo",
+    "description": "Resgate com pontos do canal da Twitch. Entrega manual após validação do resgate.",
+    "category": "Arcade",
+    "icon": "🕹️",
+    "status": "available",
+    "points": 5500
+  },
+  {
+    "title": "Polygoneer",
+    "description": "Ação arcade de reflexos e formas geométricas. Resgate com pontos do canal da Twitch.",
+    "category": "Arcade",
+    "icon": "🔷",
+    "status": "available",
+    "points": 1000
+  },
+  {
+    "title": "Road Scars: Origins - Deluxe Edition",
+    "description": "Resgate com pontos do canal da Twitch. Entrega manual após validação do resgate.",
+    "category": "Ação",
+    "icon": "🏍️",
+    "status": "available",
+    "points": 2000
+  },
+  {
+    "title": "Cyberhunt - Deluxe Edition",
+    "description": "Resgate com pontos do canal da Twitch. Entrega manual após validação do resgate.",
+    "category": "Ação",
+    "icon": "🤖",
+    "status": "available",
+    "points": 2000
+  },
+  {
+    "title": "CrossCode",
+    "description": "RPG de ação com exploração e puzzles. Resgate com pontos do canal da Twitch.",
+    "category": "RPG",
+    "icon": "⚔️",
+    "status": "available",
+    "points": 3000
+  },
+  {
+    "title": "Dungeon Defenders II",
+    "description": "Ação cooperativa e defesa de torres. Resgate com pontos do canal da Twitch.",
+    "category": "Ação",
+    "icon": "🛡️",
+    "status": "available",
+    "points": 1500
+  },
+  {
+    "title": "Destroy All Humans! - Clone Carnage",
+    "description": "Caos alienígena multiplayer. Resgate com pontos do canal da Twitch.",
+    "category": "Ação",
+    "icon": "👽",
+    "status": "available",
+    "points": 2500
+  },
+  {
+    "title": "eFootball™ 2024",
+    "description": "Futebol. Resgate com pontos do canal da Twitch.",
+    "category": "Esportes",
+    "icon": "⚽",
+    "status": "available",
+    "points": 3000
   }
 ]
