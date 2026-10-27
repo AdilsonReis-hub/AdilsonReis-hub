@@ -151,3 +151,58 @@
   .game-info h3 { min-height: 35px; }
   .game-info p { min-height: 44px; }
 }
+
+
+/* Alinhamento definitivo: área de conteúdo com altura fixa em todos os cartões */
+.game-info {
+  height: 220px;
+  min-height: 220px;
+  flex: 0 0 220px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.game-info h3 {
+  height: 38px;
+  min-height: 38px;
+  max-height: 38px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.game-info p {
+  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.game-action,
+.game-action.active {
+  margin-top: auto !important;
+  height: 36px;
+  min-height: 36px;
+  box-sizing: border-box;
+  flex: 0 0 36px;
+}
+@media (max-width: 600px) {
+  .game-info {
+    height: 216px;
+    min-height: 216px;
+    flex-basis: 216px;
+  }
+  .game-info h3 {
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+  }
+  .game-info p {
+    height: 44px;
+    min-height: 44px;
+    max-height: 44px;
+  }
+}
