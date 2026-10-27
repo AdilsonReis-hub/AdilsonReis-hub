@@ -104,7 +104,7 @@
   padding: 9px 6px;
   font-size: 11px;
 }
-.game-action.active { margin-top: 10px; }
+.game-action.active { margin-top: auto; }
 @media (max-width: 900px) {
   .game-catalog { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
