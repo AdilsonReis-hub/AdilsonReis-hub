@@ -206,3 +206,9 @@
     max-height: 44px;
   }
 }
+
+
+/* Dá respiro entre o selo de disponibilidade e o botão de resgate */
+.game-status {
+  margin-bottom: 8px;
+}
