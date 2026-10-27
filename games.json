@@ -15,7 +15,8 @@
     "category": "Arcade",
     "icon": "🕹️",
     "status": "available",
-    "points": 5500
+    "points": 5500,
+    "cover_url": "Pongo.jpg"
   },
   {
     "title": "Polygoneer",
@@ -23,7 +24,8 @@
     "category": "Arcade",
     "icon": "🔷",
     "status": "available",
-    "points": 1000
+    "points": 1000,
+    "cover_url": "Polygoneer.jpg"
   },
   {
     "title": "Road Scars: Origins - Deluxe Edition",
@@ -31,7 +33,8 @@
     "category": "Ação",
     "icon": "🏍️",
     "status": "available",
-    "points": 2000
+    "points": 2000,
+    "cover_url": "Road Scars.jpg"
   },
   {
     "title": "Cyberhunt - Deluxe Edition",
@@ -39,7 +42,8 @@
     "category": "Ação",
     "icon": "🤖",
     "status": "available",
-    "points": 2000
+    "points": 2000,
+    "cover_url": "Cyberhunt.jpg"
   },
   {
     "title": "CrossCode",
@@ -47,7 +51,8 @@
     "category": "RPG",
     "icon": "⚔️",
     "status": "available",
-    "points": 3000
+    "points": 3000,
+    "cover_url": "CrossCode.jpg"
   },
   {
     "title": "Dungeon Defenders II",
@@ -55,7 +60,8 @@
     "category": "Ação",
     "icon": "🛡️",
     "status": "available",
-    "points": 1500
+    "points": 1500,
+    "cover_url": "Dungeon Defenders.jpg"
   },
   {
     "title": "Destroy All Humans! - Clone Carnage",
@@ -63,7 +69,8 @@
     "category": "Ação",
     "icon": "👽",
     "status": "available",
-    "points": 2500
+    "points": 2500,
+    "cover_url": "Destroy All Humans.jpg"
   },
   {
     "title": "eFootball™ 2024",
@@ -71,6 +78,7 @@
     "category": "Esportes",
     "icon": "⚽",
     "status": "available",
-    "points": 3000
+    "points": 3000,
+    "cover_url": "eFootball™ 2024.jpg"
   }
 ]
