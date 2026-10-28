@@ -212,3 +212,25 @@
 .game-status {
   margin-bottom: 8px;
 }
+
+
+/* Apoie o Jiji — destaque LivePix */
+.support{position:relative;isolation:isolate;gap:clamp(28px,5vw,64px);padding-top:110px;padding-bottom:110px}
+.support:before{content:"";position:absolute;z-index:-1;inset:8% -3%;pointer-events:none;background:radial-gradient(ellipse at 78% 48%,#7d26d72b,transparent 48%),radial-gradient(ellipse at 18% 55%,#4d16851c,transparent 50%)}
+.support-copy h2{line-height:1.12}
+.support-copy h2 span{display:block;color:#d58bff;text-shadow:0 0 28px #a43cff55}
+.support-copy>p:not(.eyebrow):not(.support-hint){max-width:560px;color:#c8bfd2;line-height:1.85;font-size:16px}
+.support-cta{align-items:center;gap:12px;margin-top:14px;padding:16px 22px;border:1px solid #d19aff;background:linear-gradient(110deg,#a83dff,#6d20c9 58%,#4d149b);box-shadow:0 0 0 5px #9b4dff12,0 12px 42px #8a24e64d;transition:transform .2s,box-shadow .2s}
+.support-cta:hover{transform:translateY(-3px);box-shadow:0 0 0 6px #9b4dff20,0 16px 48px #8a24e66b}
+.support-cta span{font-size:18px}
+.support-hint{font-size:12px;color:#9f91ad;margin-top:17px;line-height:1.6}
+.qr-feature{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:3/4;max-width:440px;width:100%;justify-self:center;padding:12px;border:1px solid #b76bff;border-style:solid;border-radius:26px;background:linear-gradient(145deg,#1d0b32,#09050f 70%);box-shadow:0 0 0 1px #8e3df533,0 0 38px #8e3df533,0 24px 65px #0008;transition:transform .25s,box-shadow .25s}
+.qr-feature:hover{transform:translateY(-4px);box-shadow:0 0 0 1px #c58aff77,0 0 52px #8e3df566,0 28px 72px #0009}
+.qr-glow{position:absolute;z-index:-1;inset:-30%;background:conic-gradient(from 30deg,transparent,#8f35ff28,transparent,#e04cff20,transparent);filter:blur(24px);animation:qrGlow 12s linear infinite}
+.livepix-poster{display:block;width:100%;height:calc(100% - 34px);object-fit:contain;object-position:center;border-radius:17px;filter:drop-shadow(0 0 14px #a83dff20)}
+.qr-caption{height:34px;display:flex;justify-content:center;align-items:center;gap:9px;color:#d6b5ff;font-size:10px;font-weight:800;letter-spacing:1.5px;text-align:center}
+.qr-pulse{width:7px;height:7px;border-radius:50%;background:#e65cff;box-shadow:0 0 12px #e65cff;animation:qrPulse 1.8s ease-in-out infinite}
+@keyframes qrGlow{to{transform:rotate(360deg)}}
+@keyframes qrPulse{50%{opacity:.45;box-shadow:0 0 4px #e65cff}}
+@media(max-width:760px){.support{padding-top:75px;padding-bottom:75px}.support-copy h2 span{display:inline}.qr-feature{max-width:360px;aspect-ratio:3/4;margin-top:10px}.support-cta{width:100%;justify-content:center}.qr-caption{font-size:9px;letter-spacing:1px}}
+@media(prefers-reduced-motion:reduce){.qr-glow,.qr-pulse{animation:none}.support-cta,.qr-feature{transition:none}}
