@@ -249,3 +249,13 @@
 .social-copy span{color:var(--muted);margin-top:7px;font-size:13px;}
 .social-card i{right:22px;top:22px;}
 @media(max-width:760px){.social-card{padding:20px;gap:13px}.social-icon{width:44px;height:44px;flex-basis:44px}.social-icon svg{width:25px;height:25px}}
+
+
+/* Ajuste compacto dos cartões sociais — preserva o layout original */
+#links .cards .social-card{min-height:92px;padding:18px 22px;gap:12px;}
+#links .social-card .social-icon{width:34px;height:34px;flex:0 0 34px;border-radius:9px;}
+#links .social-card .social-icon svg{width:20px;height:20px;}
+#links .social-card .social-copy b{font-size:17px;line-height:1.25;}
+#links .social-card .social-copy span{font-size:12px;margin-top:4px;line-height:1.35;}
+#links .social-card i{right:18px;top:16px;font-size:13px;}
+@media(max-width:760px){#links .cards .social-card{min-height:78px;padding:15px 17px;gap:10px}#links .social-card .social-icon{width:30px;height:30px;flex-basis:30px}#links .social-card .social-icon svg{width:18px;height:18px}#links .social-card .social-copy b{font-size:16px}}
