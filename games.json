@@ -80,5 +80,14 @@
     "status": "available",
     "points": 3000,
     "cover_url": "assets/capas/eFootball™ 2024.jpg"
+  },
+  {
+    "title": "LEGO NINJAGO",
+    "description": "Aventura de ação no universo LEGO NINJAGO. Resgate com pontos do canal da Twitch. Entrega manual após validação do resgate.",
+    "category": "Ação e aventura",
+    "icon": "🥷",
+    "status": "available",
+    "points": 10500,
+    "cover_url": "assets/capas/Lego NinjaGo.jpeg"
   }
 ]
