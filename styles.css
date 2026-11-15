@@ -266,3 +266,8 @@
 #apoio .livepix-poster{width:min(100%,320px);height:auto;max-height:360px;object-fit:contain;object-position:center;flex:0 1 auto;margin:auto;}
 #apoio .qr-caption{width:100%;flex:0 0 34px;}
 @media(max-width:760px){#apoio .qr-feature{padding:16px}#apoio .livepix-poster{width:min(100%,280px);max-height:320px}}
+
+
+/* Status de recompensa já resgatada */
+.game-status.redeemed{border-color:#70552b;background:#241b0d;color:#f2cf8a}
+.game-action.redeemed-action{border-color:#70552b;background:#1c150d;color:#d9b978;cursor:default}
