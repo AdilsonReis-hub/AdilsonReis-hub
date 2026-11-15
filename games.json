@@ -83,10 +83,10 @@
   },
   {
     "title": "LEGO NINJAGO",
-    "description": "Aventura de ação no universo LEGO NINJAGO. Resgate com pontos do canal da Twitch. Entrega manual após validação do resgate.",
+    "description": "Aventura de ação no universo LEGO NINJAGO. Recompensa já resgatada.",
     "category": "Ação e aventura",
     "icon": "🥷",
-    "status": "available",
+    "status": "redeemed",
     "points": 10500,
     "cover_url": "assets/capas/Lego NinjaGo.jpeg"
   }
