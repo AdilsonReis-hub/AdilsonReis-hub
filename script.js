@@ -27,11 +27,9 @@ document.addEventListener("mousemove", (e) => {
     const deltaX = e.clientX - centerX;
     const deltaY = e.clientY - centerY;
 
-    // Movimento horizontal
     let rotate = deltaX * 0.012;
     rotate = Math.max(-10, Math.min(10, rotate));
 
-    // Movimento vertical bem sutil
     let moveY = deltaY * 0.004;
     moveY = Math.max(-3, Math.min(3, moveY));
 
@@ -70,7 +68,8 @@ function renderGames() {
 
   catalog.innerHTML = filtered.map(game => {
     const available = game.status === 'available';
-    const status = available ? 'Disponível' : 'Em breve';
+    const redeemed = game.status === 'redeemed';
+    const status = available ? 'Disponível' : redeemed ? 'Resgatado' : 'Em breve';
     const icon = escapeHTML(game.icon || '🎮');
     const coverUrl = escapeHTML(game.cover_url || '');
     const points = Number(game.points) > 0 ? Number(game.points).toLocaleString('pt-BR') + ' pontos' : 'Ver na Twitch';
@@ -79,11 +78,13 @@ function renderGames() {
     const gameCategory = escapeHTML(game.category || 'Outros');
     const action = available
       ? `<a class="game-action active" href="https://www.twitch.tv/jijirencarnado" target="_blank" rel="noopener">${points} <span aria-hidden="true">↗</span></a>`
-      : '<span class="game-action" aria-disabled="true">Resgates ainda não disponíveis</span>';
+      : redeemed
+        ? '<span class="game-action redeemed-action" aria-disabled="true">Recompensa já resgatada</span>'
+        : '<span class="game-action" aria-disabled="true">Resgates ainda não disponíveis</span>';
     return `<article class="game-card">
       <div class="game-art">${coverUrl ? `<img src="${coverUrl}" alt="Capa de ${title}" loading="lazy">` : icon}</div>
       <div class="game-info"><span class="game-category">${gameCategory}</span><h3>${title}</h3>
-      <p>${description}</p><span class="game-status ${available ? 'available' : ''}">${status}</span>${action}</div>
+      <p>${description}</p><span class="game-status ${available ? 'available' : redeemed ? 'redeemed' : ''}">${status}</span>${action}</div>
     </article>`;
   }).join('');
 }
